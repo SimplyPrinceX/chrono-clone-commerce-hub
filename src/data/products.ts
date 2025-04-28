@@ -1,4 +1,3 @@
-
 export interface Product {
   id: number;
   name: string;
@@ -262,6 +261,126 @@ export const products: Product[] = [
     inStock: true,
     isNewArrival: true,
     isBestSeller: false
+  },
+  {
+    id: 9,
+    name: "Seamaster Professional",
+    brand: "Omega",
+    category: "men",
+    price: 8500,
+    description: "The legendary Omega Seamaster Professional, trusted by dive professionals and style enthusiasts alike.",
+    features: [
+      "Co-axial escapement",
+      "Wave-patterned dial",
+      "Date window at 6 o'clock",
+      "Helium escape valve",
+      "Anti-magnetic to 15,000 gauss"
+    ],
+    specifications: {
+      case: "Stainless steel, 42mm",
+      movement: "Omega Master Chronometer Calibre 8800",
+      dial: "Deep ocean blue ceramic",
+      bracelet: "Stainless steel with fine adjustment",
+      water_resistance: "300 meters / 1000 feet"
+    },
+    images: [
+      "photo-1547996160-81dfa63595aa",
+      "photo-1618220048045-10a6dbdf83e0",
+      "photo-1582152629442-4a864303fb96"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: false
+  },
+  {
+    id: 10,
+    name: "Nautilus Limited",
+    brand: "Patek Philippe",
+    category: "men",
+    price: 89999,
+    description: "Limited-edition Patek Philippe Nautilus with exclusive embossed dial and features.",
+    features: [
+      "Limited production of 500 pieces worldwide",
+      "Original Gerald Genta design",
+      "Horizontally embossed dial",
+      "Integrated bracelet design",
+      "Transparent sapphire caseback showing calibre 324 S C"
+    ],
+    specifications: {
+      case: "Platinum, 40mm",
+      movement: "Calibre 324 S C, Self-winding",
+      dial: "Blue with horizontal embossing",
+      bracelet: "Integrated platinum bracelet",
+      water_resistance: "120 meters / 394 feet"
+    },
+    images: [
+      "photo-1548169874-53e85f753f1e",
+      "photo-1523170335258-f5ed11844a49",
+      "photo-1539874754764-5a96559165b0"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: false
+  },
+  {
+    id: 11,
+    name: "Royal Oak Offshore",
+    brand: "Audemars Piguet",
+    category: "men",
+    price: 45000,
+    description: "Bold, muscular evolution of the iconic Royal Oak, embodying sporting luxury and precision engineering.",
+    features: [
+      "In-house automatic movement",
+      "Oversized 44mm case",
+      "Iconic octagonal bezel with exposed screws",
+      "Grande Tapisserie pattern dial",
+      "Integrated rubber strap"
+    ],
+    specifications: {
+      case: "Stainless steel and ceramic, 44mm",
+      movement: "Calibre 3126/3840, Self-winding",
+      dial: "Black Grande Tapisserie pattern",
+      bracelet: "Black rubber with steel folding clasp",
+      water_resistance: "100 meters / 330 feet"
+    },
+    images: [
+      "photo-1523170335258-f5ed11844a49",
+      "photo-1508057198894-247b23fe5ade",
+      "photo-1548169874-53e85f753f1e"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: false
+  },
+  {
+    id: 12,
+    name: "Big Bang Unico",
+    brand: "Hublot",
+    category: "men",
+    price: 35000,
+    description: "Revolutionary fusion of materials with skeleton dial and in-house movement, making a bold statement.",
+    features: [
+      "Unico in-house movement",
+      "Innovative materials fusion",
+      "Flyback chronograph function",
+      "Column-wheel chronograph mechanism",
+      "Interchangeable strap system"
+    ],
+    specifications: {
+      case: "King Gold and ceramic, 44mm",
+      movement: "Hublot UNICO HUB1280, Self-winding chronograph",
+      dial: "Skeletonized",
+      bracelet: "Black structured rubber with deployant buckle",
+      water_resistance: "100 meters / 330 feet"
+    },
+    images: [
+      "photo-1633285859883-a327851da7eb",
+      "photo-1491336477066-31156b5e4f35",
+      "photo-1508057198894-247b23fe5ade"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: false
   }
 ];
 
@@ -273,7 +392,8 @@ export const brands = [
   { id: 5, name: "Patek Philippe", count: 6, image: "photo-1548169874-53e85f753f1e" },
   { id: 6, name: "Apple", count: 5, image: "photo-1579586337278-3befd40fd17a" },
   { id: 7, name: "IWC", count: 9, image: "photo-1524592094857-4a99389care0" },
-  { id: 8, name: "Hublot", count: 7, image: "photo-1633285859883-a327851da7eb" }
+  { id: 8, name: "Hublot", count: 7, image: "photo-1633285859883-a327851da7eb" },
+  { id: 9, name: "Audemars Piguet", count: 8, image: "photo-1523170335258-f5ed11844a49" }
 ];
 
 export const categories = [
