@@ -60,21 +60,6 @@ const Footer = () => {
                   Contact Us
                 </Link>
               </li>
-              <li>
-                <Link to="/shipping" className="text-gray-300 hover:text-gold transition-colors">
-                  Shipping & Returns
-                </Link>
-              </li>
-              <li>
-                <Link to="/privacy" className="text-gray-300 hover:text-gold transition-colors">
-                  Privacy Policy
-                </Link>
-              </li>
-              <li>
-                <Link to="/terms" className="text-gray-300 hover:text-gold transition-colors">
-                  Terms & Conditions
-                </Link>
-              </li>
             </ul>
           </div>
 
@@ -111,3 +96,4 @@ const Footer = () => {
 };
 
 export default Footer;
+
