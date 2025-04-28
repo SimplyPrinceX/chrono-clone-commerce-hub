@@ -1,3 +1,4 @@
+
 import type { Config } from "tailwindcss";
 
 export default {
@@ -52,6 +53,12 @@ export default {
 					DEFAULT: 'hsl(var(--card))',
 					foreground: 'hsl(var(--card-foreground))'
 				},
+				// Watch-themed colors
+				navy: "#0F172A",
+				gold: "#D4AF37",
+				platinum: "#E5E4E2",
+				silver: "#C0C0C0",
+				bronze: "#CD7F32",
 				sidebar: {
 					DEFAULT: 'hsl(var(--sidebar-background))',
 					foreground: 'hsl(var(--sidebar-foreground))',
