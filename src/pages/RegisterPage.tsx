@@ -119,3 +119,6 @@ const RegisterPage = () => {
       </div>
     </div>
   );
+};
+
+export default RegisterPage;
