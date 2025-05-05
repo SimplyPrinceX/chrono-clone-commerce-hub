@@ -1,4 +1,3 @@
-
 import React, { useState } from 'react';
 import { Link } from 'react-router-dom';
 import { Button } from '@/components/ui/button';
@@ -27,7 +26,6 @@ const ContactPage = () => {
       [name]: value
     });
     
-    // Clear error when field is being edited
     if (errors[name]) {
       const newErrors = { ...errors };
       delete newErrors[name];
@@ -51,13 +49,11 @@ const ContactPage = () => {
     e.preventDefault();
     
     if (validateForm()) {
-      // In a real app, this would submit the form to a backend
       toast({
         title: "Message Sent",
         description: "Thank you for your message. We'll get back to you as soon as possible.",
       });
       
-      // Reset form
       setFormData({
         name: '',
         email: '',
@@ -93,17 +89,17 @@ const ContactPage = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Our Address</h3>
                   <p className="text-gray-700">
-                    123 Watch St<br />
-                    Timeville, NY 10001<br />
-                    United States
+                    456 MG Road<br />
+                    Bengaluru, Karnataka 560001<br />
+                    India
                   </p>
                 </div>
                 
                 <div>
                   <h3 className="font-semibold mb-2">Email Us</h3>
                   <p className="text-gray-700">
-                    <a href="mailto:info@justwatches.com" className="text-gold hover:underline">
-                      info@justwatches.com
+                    <a href="mailto:contact@chronova.in" className="text-gold hover:underline">
+                      contact@chronova.in
                     </a>
                   </p>
                 </div>
@@ -111,8 +107,8 @@ const ContactPage = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Call Us</h3>
                   <p className="text-gray-700">
-                    <a href="tel:+15551234567" className="text-gold hover:underline">
-                      +1 (555) 123-4567
+                    <a href="tel:+918867472331" className="text-gold hover:underline">
+                      +91 88674 72331
                     </a>
                   </p>
                 </div>
@@ -120,8 +116,8 @@ const ContactPage = () => {
                 <div>
                   <h3 className="font-semibold mb-2">Opening Hours</h3>
                   <p className="text-gray-700">
-                    Monday - Friday: 9:00 AM - 8:00 PM<br />
-                    Saturday: 10:00 AM - 6:00 PM<br />
+                    Monday - Friday: 10:00 AM - 7:00 PM<br />
+                    Saturday: 11:00 AM - 5:00 PM<br />
                     Sunday: Closed
                   </p>
                 </div>
@@ -207,7 +203,6 @@ const ContactPage = () => {
         <div className="mt-12">
           <h2 className="text-xl font-bold mb-6">Our Location</h2>
           <div className="aspect-[16/9] w-full bg-gray-300 rounded-lg overflow-hidden">
-            {/* This would be a real map in a production environment */}
             <div className="h-full w-full flex items-center justify-center bg-gray-200">
               <p className="text-gray-600 font-medium">Interactive Map Would Be Here</p>
             </div>
