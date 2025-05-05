@@ -36,7 +36,7 @@ const HomePage = () => {
       <section className="py-16 bg-gray-50">
         <div className="watch-container">
           <h2 className="text-3xl font-bold mb-10 text-center">Shop By Category</h2>
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-6">
+          <div className="grid grid-cols-1 md:grid-cols-3 gap-6">
             <Link to="/watches/men" className="group relative h-80 rounded-lg overflow-hidden">
               <img 
                 src="https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3" 
@@ -52,7 +52,7 @@ const HomePage = () => {
             </Link>
             <Link to="/watches/women" className="group relative h-80 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1434056886845-dac89ffe9b56" 
+                src="https://images.unsplash.com/photo-1595923533867-5f24da64e61a" 
                 alt="Women's Watches" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -65,7 +65,7 @@ const HomePage = () => {
             </Link>
             <Link to="/watches/luxury" className="group relative h-80 rounded-lg overflow-hidden">
               <img 
-                src="https://images.unsplash.com/photo-1523170335258-f5ed11844a49" 
+                src="https://images.unsplash.com/photo-1548169874-53e85f753f1e" 
                 alt="Luxury Watches" 
                 className="w-full h-full object-cover transition-transform duration-500 group-hover:scale-105"
               />
@@ -108,39 +108,8 @@ const HomePage = () => {
         </div>
       </section>
 
-      {/* Featured Brands */}
-      <section className="py-16 bg-gray-50">
-        <div className="watch-container">
-          <h2 className="text-3xl font-bold mb-10 text-center">Featured Brands</h2>
-          <div className="grid grid-cols-2 md:grid-cols-4 gap-6">
-            {brands.slice(0, 4).map((brand) => (
-              <Link
-                key={brand.id}
-                to={`/brands/${brand.name.toLowerCase().replace(' ', '-')}`}
-                className="relative group bg-white p-6 rounded-lg shadow-sm hover:shadow-md transition-shadow flex flex-col items-center text-center"
-              >
-                <div className="h-24 w-24 rounded-full overflow-hidden mb-4">
-                  <img
-                    src={`https://images.unsplash.com/${brand.image}`}
-                    alt={brand.name}
-                    className="w-full h-full object-cover"
-                  />
-                </div>
-                <h3 className="font-semibold">{brand.name}</h3>
-                <p className="text-sm text-gray-600">{brand.count} models</p>
-              </Link>
-            ))}
-          </div>
-          <div className="text-center mt-10">
-            <Button asChild variant="outline" className="border-gold text-navy hover:bg-gold hover:text-white">
-              <Link to="/brands">View All Brands</Link>
-            </Button>
-          </div>
-        </div>
-      </section>
-
       {/* New Arrivals */}
-      <section className="py-16">
+      <section className="py-16 bg-gray-50">
         <div className="watch-container">
           <div className="flex justify-between items-center mb-10">
             <h2 className="text-3xl font-bold">New Arrivals</h2>
@@ -149,7 +118,7 @@ const HomePage = () => {
             </Link>
           </div>
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-4 gap-6">
-            {newArrivals.map((product) => (
+            {newArrivals.slice(0, 4).map((product) => (
               <Link key={product.id} to={`/product/${product.id}`} className="group">
                 <div className="bg-gray-100 rounded-lg overflow-hidden aspect-square mb-4 relative">
                   <img
@@ -164,34 +133,6 @@ const HomePage = () => {
                 <p className="font-bold text-lg">${product.price.toLocaleString()}</p>
               </Link>
             ))}
-          </div>
-        </div>
-      </section>
-
-      {/* Testimonial / Feature */}
-      <section className="py-16 bg-navy text-white">
-        <div className="watch-container">
-          <div className="flex flex-col md:flex-row items-center">
-            <div className="md:w-1/2 mb-8 md:mb-0 md:pr-12">
-              <h2 className="text-3xl font-bold mb-4">The Finest Craftsmanship</h2>
-              <p className="mb-6 text-gray-300">
-                Each timepiece in our collection represents the pinnacle of watchmaking art.
-                From the precision of Swiss movement to the elegance of hand-polished cases,
-                we curate only the finest watches that stand the test of time.
-              </p>
-              <Button asChild className="bg-gold hover:bg-amber-600 text-white">
-                <Link to="/about">Our Story</Link>
-              </Button>
-            </div>
-            <div className="md:w-1/2">
-              <div className="relative">
-                <img
-                  src="https://images.unsplash.com/photo-1539874754764-5a96559165b0"
-                  alt="Watch craftsmanship"
-                  className="rounded-lg w-full"
-                />
-              </div>
-            </div>
           </div>
         </div>
       </section>

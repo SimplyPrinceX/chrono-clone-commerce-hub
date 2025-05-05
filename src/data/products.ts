@@ -43,9 +43,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "photo-1539874754764-5a96559165b0",
+      "photo-1663012517424-297aacd937ff",
       "photo-1548169874-53e85f753f1e",
-      "photo-1541778480-81fae9959b9e"
+      "photo-1539874754764-5a96559165b0"
     ],
     inStock: true,
     isNewArrival: false,
@@ -73,9 +73,9 @@ export const products: Product[] = [
       water_resistance: "300 meters / 1000 feet"
     },
     images: [
-      "photo-1547996160-81dfa63595aa",
-      "photo-1612817159949-195b6eb9e31a",
-      "photo-1618220048045-10a6dbdf83e0"
+      "photo-1582152629442-4a864303fb96",
+      "photo-1618220048045-10a6dbdf83e0",
+      "photo-1547996160-81dfa63595aa"
     ],
     inStock: true,
     isNewArrival: true,
@@ -104,8 +104,8 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
+      "photo-1651984910098-9ab7a3561982",
       "photo-1522312346375-d1a52e2b99b3",
-      "photo-1542496658-e33a6d0d50f6",
       "photo-1524592094857-4a99389care0"
     ],
     inStock: true,
@@ -134,7 +134,7 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "photo-1434056886845-dac89ffe9b56",
+      "photo-1595923533867-5f24da64e61a",
       "photo-1508685096489-7aacd43bd3b1",
       "photo-1533139502658-0198f920d8e8"
     ],
@@ -164,43 +164,13 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
+      "photo-1548169874-53e85f753f1e",
       "photo-1523170335258-f5ed11844a49",
-      "photo-1508057198894-247b23fe5ade",
-      "photo-1533302658793-3a3ccc89882f"
+      "photo-1539874754764-5a96559165b0"
     ],
     inStock: false,
     isNewArrival: false,
     isBestSeller: false
-  },
-  {
-    id: 6,
-    name: "Smart Chronometer",
-    brand: "Apple",
-    category: "unisex",
-    price: 799,
-    description: "Advanced smart watch combining traditional watchmaking aesthetics with cutting-edge technology.",
-    features: [
-      "Always-on Retina display",
-      "ECG app and blood oxygen sensor",
-      "Fitness and sleep tracking",
-      "Water resistant for swimming",
-      "GPS and cellular connectivity"
-    ],
-    specifications: {
-      case: "Titanium, 45mm",
-      movement: "Digital",
-      dial: "LTPO OLED Always-On Retina display",
-      bracelet: "Titanium link bracelet",
-      water_resistance: "50 meters / 164 feet"
-    },
-    images: [
-      "photo-1579586337278-3befd40fd17a",
-      "photo-1434494878577-86c23bcb06b9",
-      "photo-1434494783526-8317a275791e"
-    ],
-    inStock: true,
-    isNewArrival: true,
-    isBestSeller: true
   },
   {
     id: 7,
@@ -254,8 +224,8 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
+      "photo-1633285859883-a327851da7eb",
       "photo-1491336477066-31156b5e4f35",
-      "photo-1542496658-e33a6d0d50f6",
       "photo-1508057198894-247b23fe5ade"
     ],
     inStock: true,
@@ -386,14 +356,13 @@ export const products: Product[] = [
 
 export const brands = [
   { id: 1, name: "Rolex", count: 12, image: "photo-1663012517424-297aacd937ff" },
-  { id: 2, name: "Omega", count: 18, image: "photo-1582152629442-4a864303fb96" },
-  { id: 3, name: "Tag Heuer", count: 15, image: "photo-1651984910098-9ab7a3561982" },
-  { id: 4, name: "Cartier", count: 10, image: "photo-1595923533867-5f24da64e61a" },
+  { id: 2, name: "Omega", count: 15, image: "photo-1582152629442-4a864303fb96" },
+  { id: 3, name: "Tag Heuer", count: 10, image: "photo-1651984910098-9ab7a3561982" },
+  { id: 4, name: "Cartier", count: 8, image: "photo-1595923533867-5f24da64e61a" },
   { id: 5, name: "Patek Philippe", count: 6, image: "photo-1548169874-53e85f753f1e" },
-  { id: 6, name: "Apple", count: 5, image: "photo-1579586337278-3befd40fd17a" },
-  { id: 7, name: "IWC", count: 9, image: "photo-1524592094857-4a99389care0" },
-  { id: 8, name: "Hublot", count: 7, image: "photo-1633285859883-a327851da7eb" },
-  { id: 9, name: "Audemars Piguet", count: 8, image: "photo-1523170335258-f5ed11844a49" }
+  { id: 7, name: "IWC", count: 7, image: "photo-1524592094857-4a99389care0" },
+  { id: 8, name: "Hublot", count: 5, image: "photo-1633285859883-a327851da7eb" },
+  { id: 9, name: "Audemars Piguet", count: 4, image: "photo-1523170335258-f5ed11844a49" }
 ];
 
 export const categories = [
