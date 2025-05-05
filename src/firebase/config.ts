@@ -6,12 +6,12 @@ import { getFirestore } from "firebase/firestore";
 // Your web app's Firebase configuration
 // Replace with your own Firebase config values
 const firebaseConfig = {
-  apiKey: "YOUR_API_KEY",
-  authDomain: "YOUR_AUTH_DOMAIN",
-  projectId: "YOUR_PROJECT_ID",
-  storageBucket: "YOUR_STORAGE_BUCKET",
-  messagingSenderId: "YOUR_MESSAGING_SENDER_ID",
-  appId: "YOUR_APP_ID"
+  apiKey: "AIzaSyDXeBdysM9atNueWhlpn2DxnBCTVAFu_t8",
+  authDomain: "chronova-6d7aa.firebaseapp.com",
+  projectId: "chronova-6d7aa",
+  storageBucket: "chronova-6d7aa.firebasestorage.app",
+  messagingSenderId: "788325293912",
+  appId: "1:788325293912:web:5f51a4a1cd816a49e2cf2d"
 };
 
 // Initialize Firebase
