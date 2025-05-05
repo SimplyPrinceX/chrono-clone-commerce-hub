@@ -11,7 +11,8 @@ const firebaseConfig = {
   projectId: "chronova-6d7aa",
   storageBucket: "chronova-6d7aa.firebasestorage.app",
   messagingSenderId: "788325293912",
-  appId: "1:788325293912:web:5f51a4a1cd816a49e2cf2d"
+  appId: "1:788325293912:web:5f51a4a1cd816a49e2cf2d",
+  measurementId: "G-KHTK27NNRM"
 };
 
 // Initialize Firebase
