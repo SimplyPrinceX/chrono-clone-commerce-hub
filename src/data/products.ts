@@ -43,9 +43,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1627662168806-efa33a7cda86?q=80&w=1000&auto=format&fit=crop",
+      "https://p1.liveauctioneers.com/5584/131790/66973302_1_x.jpg?auto=webp&format=pjpg&quality=50&version=1543359129",
       "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1612454773739-25a58238d887?q=80&w=1000&auto=format&fit=crop"
+      
     ],
     inStock: true,
     isNewArrival: false,
@@ -73,9 +73,7 @@ export const products: Product[] = [
       water_resistance: "300 meters / 1000 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1593998066526-65fcab3021a2?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548171632-c668abbf39d4?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?q=80&w=1000&auto=format&fit=crop"
+      "https://twobrokewatchsnobs.com/wp-content/uploads/2020/02/Omega-Seamaster-Professional-300M-Review-2254.50.00-Image-3-scaled.jpg"
     ],
     inStock: true,
     isNewArrival: true,
@@ -104,9 +102,8 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1619134778706-7015533a6150?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1639037949517-b137202d0955?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1548169874-53e85f753f1e?q=80&w=1000&auto=format&fit=crop"
+      "https://shine-watches.com/wp-content/uploads/2022/07/Tag-Heuer-Carrera-Calibre-17-bracelet-600x600.jpg",
+
     ],
     inStock: true,
     isNewArrival: false,
@@ -134,9 +131,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1619947486526-b9dd1fb79ad0?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=1000&auto=format&fit=crop"
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/332086398/YF/VB/UJ/150266763/cr2-500x500.png",
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/332086398/YF/VB/UJ/150266763/cr2-500x500.png",
+      "https://5.imimg.com/data5/SELLER/Default/2023/8/332086398/YF/VB/UJ/150266763/cr2-500x500.png"
     ],
     inStock: true,
     isNewArrival: true,
@@ -164,9 +161,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1583312708610-fe16a34b0826?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1709744331583-1e52343a1fc4?q=80&w=1000&auto=format&fit=crop"
+      "https://almawatches.com/cdn/shop/products/DSC_6352_1024x1024@2x.jpg?v=1644489415",
+      "https://almawatches.com/cdn/shop/products/DSC_6352_1024x1024@2x.jpg?v=1644489415",
+      "https://almawatches.com/cdn/shop/products/DSC_6352_1024x1024@2x.jpg?v=1644489415"
     ],
     inStock: false,
     isNewArrival: false,
@@ -194,9 +191,9 @@ export const products: Product[] = [
       water_resistance: "60 meters / 200 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1606736649348-3b11672e73aa?q=80&w=1000&auto=format&fit=crop"
+      "https://timeandtidewatches.com/wp-content/uploads/2021/03/IWC-IW388102-16657.jpg",
+      "https://timeandtidewatches.com/wp-content/uploads/2021/03/IWC-IW388102-16657.jpg",
+      "https://timeandtidewatches.com/wp-content/uploads/2021/03/IWC-IW388102-16657.jpg"
     ],
     inStock: true,
     isNewArrival: false,
@@ -224,9 +221,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1615138348058-fa7283161fcd?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1614703275013-fd9a795ae2b4?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1000&auto=format&fit=crop"
+      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2024-08/Spirit-of-Big-Bang-Tourbillon-5-Day-Power-Reserve-White-Ceramic-PR-shot.jpg?itok=VHIV22JI",
+      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2024-08/Spirit-of-Big-Bang-Tourbillon-5-Day-Power-Reserve-White-Ceramic-PR-shot.jpg?itok=VHIV22JI",
+      "https://www.hublot.com/sites/default/files/styles/global_laptop_1x/public/2024-08/Spirit-of-Big-Bang-Tourbillon-5-Day-Power-Reserve-White-Ceramic-PR-shot.jpg?itok=VHIV22JI"
     ],
     inStock: true,
     isNewArrival: true,
@@ -254,9 +251,9 @@ export const products: Product[] = [
       water_resistance: "300 meters / 1000 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1580287017983-f87a392cf661?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1602005809076-d3b10dad8312?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1000&auto=format&fit=crop"
+      "https://barrelsandbalance.com/wp-content/uploads/2024/12/image-10.png",
+      "https://barrelsandbalance.com/wp-content/uploads/2024/12/image-10.png",
+      "https://barrelsandbalance.com/wp-content/uploads/2024/12/image-10.png"
     ],
     inStock: true,
     isNewArrival: true,
@@ -284,9 +281,9 @@ export const products: Product[] = [
       water_resistance: "120 meters / 394 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1650925735028-b73bc9e9063a?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1621370115429-cf6c8f4e0f54?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1615838574155-8c693cd96808?q=80&w=1000&auto=format&fit=crop"
+      "https://www.patek.com/resources/img/launch_2021_nautilus/nautilus2021_2_1920.jpg",
+      "https://www.patek.com/resources/img/launch_2021_nautilus/nautilus2021_2_1920.jpg",
+      "https://www.patek.com/resources/img/launch_2021_nautilus/nautilus2021_2_1920.jpg"
     ],
     inStock: true,
     isNewArrival: true,
@@ -314,9 +311,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1596893522033-60a6b80f1c24?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1639662546615-3e62d188d21a?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1626113151297-025de5ffd85e?q=80&w=1000&auto=format&fit=crop"
+      "https://images.secondmovement.com/media/catalog/product/cache/105b3c9229095e8c1e373d2e9464b4da/a/u/audemars-piguet-royal-oak-offshore-26420ro-oo-a002ca-01-multiple-1.jpg",
+      "https://images.secondmovement.com/media/catalog/product/cache/105b3c9229095e8c1e373d2e9464b4da/a/u/audemars-piguet-royal-oak-offshore-26420ro-oo-a002ca-01-multiple-1.jpg",
+      "https://images.secondmovement.com/media/catalog/product/cache/105b3c9229095e8c1e373d2e9464b4da/a/u/audemars-piguet-royal-oak-offshore-26420ro-oo-a002ca-01-multiple-1.jpg"
     ],
     inStock: true,
     isNewArrival: true,
@@ -344,9 +341,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1645366745115-4cb5dd4ac47e?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1705273690533-7fa9a2083157?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1677128412284-b7d12f6a8bc3?q=80&w=1000&auto=format&fit=crop"
+      "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/h/u/hublot-big-bang-421-ox-1180-rx-multiple-3.jpg",
+      "https://cdn1.ethoswatches.com/media/catalog/product/cache/6e5de5bc3d185d8179cdc7258143f41a/h/u/hublot-big-bang-421-ox-1180-rx-multiple-3.jpg",
+      "https://content.thewosgroup.com/productimage/17170852/17170852_3.jpg?impolicy=hero&imwidth=700"
     ],
     inStock: true,
     isNewArrival: true,
@@ -374,9 +371,9 @@ export const products: Product[] = [
       water_resistance: "50 meters / 167 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1614750443302-4b3741f85c24?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1632498301446-5f3f8d94b7ed?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?q=80&w=1000&auto=format&fit=crop"
+      "https://www.omegawatches.com/media/catalog/category/img-SPMoonwatchCal3861-imgSearch2.jpg",
+      "https://www.omegawatches.com/media/catalog/category/img-SPMoonwatchCal3861-imgSearch2.jpg",
+      "https://www.omegawatches.com/media/catalog/category/img-SPMoonwatchCal3861-imgSearch2.jpg"
     ],
     inStock: true,
     isNewArrival: false,
@@ -404,9 +401,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1684142589680-e9b0e9da6daf?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1609609128691-99f27fb83314?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1592857029495-ef57a8f2bf34?q=80&w=1000&auto=format&fit=crop"
+      "https://www.swisswatchexpo.com/thewatchclub/wp-content/uploads/2021/03/rolex-datejust-41-styles.png",
+      "https://www.swisswatchexpo.com/thewatchclub/wp-content/uploads/2021/03/rolex-datejust-41-styles.png",
+      "https://www.swisswatchexpo.com/thewatchclub/wp-content/uploads/2021/03/rolex-datejust-41-styles.png"
     ],
     inStock: true,
     isNewArrival: true,
@@ -435,9 +432,9 @@ export const products: Product[] = [
       water_resistance: "200 meters / 660 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1655664910813-6fdeefd0b9d7?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1648183185045-7a52f84c2ef4?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1638516532584-4708a49da3af?q=80&w=1000&auto=format&fit=crop"
+      "https://monochrome-watches.com/wp-content/uploads/2016/11/tudor_heritage_chrono_70330n.jpg",
+      "https://monochrome-watches.com/wp-content/uploads/2016/11/tudor_heritage_chrono_70330n.jpg",
+      "https://monochrome-watches.com/wp-content/uploads/2016/11/tudor_heritage_chrono_70330n.jpg"
     ],
     inStock: true,
     isNewArrival: true,
@@ -465,9 +462,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.unsplash.com/photo-1625592526284-06c17c81a237?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1622435012548-13a9a97c2470?q=80&w=1000&auto=format&fit=crop",
-      "https://images.unsplash.com/photo-1669118041111-f240c48dc164?q=80&w=1000&auto=format&fit=crop"
+      "https://i0.wp.com/cdn.luxuo.com/2024/08/Cartier-Resized-Image-01.jpg?resize=1200%2C957&ssl=1",
+      "https://i0.wp.com/cdn.luxuo.com/2024/08/Cartier-Resized-Image-01.jpg?resize=1200%2C957&ssl=1",
+      "https://i0.wp.com/cdn.luxuo.com/2024/08/Cartier-Resized-Image-01.jpg?resize=1200%2C957&ssl=1"
     ],
     inStock: true,
     isNewArrival: false,
@@ -476,15 +473,15 @@ export const products: Product[] = [
 ];
 
 export const brands = [
-  { id: 1, name: "Rolex", count: 12, image: "https://images.unsplash.com/photo-1627662168806-efa33a7cda86?q=80&w=1000&auto=format&fit=crop" },
-  { id: 2, name: "Omega", count: 15, image: "https://images.unsplash.com/photo-1593998066526-65fcab3021a2?q=80&w=1000&auto=format&fit=crop" },
-  { id: 3, name: "TAG Heuer", count: 10, image: "https://images.unsplash.com/photo-1619134778706-7015533a6150?q=80&w=1000&auto=format&fit=crop" },
-  { id: 4, name: "Cartier", count: 8, image: "https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=1000&auto=format&fit=crop" },
-  { id: 5, name: "Patek Philippe", count: 6, image: "https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=1000&auto=format&fit=crop" },
-  { id: 7, name: "IWC", count: 7, image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1000&auto=format&fit=crop" },
-  { id: 8, name: "Hublot", count: 5, image: "https://images.unsplash.com/photo-1615138348058-fa7283161fcd?q=80&w=1000&auto=format&fit=crop" },
-  { id: 9, name: "Audemars Piguet", count: 4, image: "https://images.unsplash.com/photo-1596893522033-60a6b80f1c24?q=80&w=1000&auto=format&fit=crop" },
-  { id: 10, name: "Tudor", count: 5, image: "https://images.unsplash.com/photo-1655664910813-6fdeefd0b9d7?q=80&w=1000&auto=format&fit=crop" }
+  { id: 1, name: "Rolex", count: 2, image: "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1000&auto=format&fit=crop" },
+  { id: 2, name: "Omega", count: 3, image: "https://www.watchtime.com/wp-content/uploads/2022/01/Omega_Speedmaster_Moonwatch_MC_FI.jpg" },
+  { id: 3, name: "TAG Heuer", count: 1, image: "https://www.tagheuer.com/on/demandware.static/-/Sites-tagheuer-master/default/dw8b8385d0/TAG_Heuer_Carrera/CBS2211.FC6545/CBS2211.FC6545_USP2.jpg" },
+  { id: 4, name: "Cartier", count: 2, image: "https://images.watchfinder.co.uk/images/watchfinderimages/media/articles/thumb-2024-02-12-12-06-58-811.jpg" },
+  { id: 5, name: "Patek Philippe", count: 1, image: "https://www.swisswatchexpo.com/thewatchclub/wp-content/uploads/2024/06/Patek-Philippe-Ultimate-Guide.jpg" },
+  { id: 7, name: "IWC", count: 1, image: "https://www.watchswiss.com/wp-content/uploads/2022/03/The-Watches-of-Switzerland-Pocket-Guide-to-IWC_0000_iw344202mobile5to93.jpg" },
+  { id: 8, name: "Hublot", count: 1, image: "https://revolutionwatch.com/wp-content/uploads/2024/12/01-Hublot-Samuel-Ross-2024.jpg" },
+  { id: 9, name: "Audemars Piguet", count: 1, image: "https://blog.europeanwatch.com/blog/wp-content/uploads/2024/08/1Z2A6835-2-scaled.jpg" },
+  { id: 10, name: "Tudor", count: 1, image: "https://watchesbysjx.com/wp-content/uploads/2024/04/Tudor-Black-Bay-41-black-bezel-profile.jpg" }
 ];
 
 export const categories = [
