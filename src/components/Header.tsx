@@ -22,7 +22,7 @@ const Header = () => {
           {/* Logo */}
           <Link to="/" className="flex items-center">
             <h1 className="text-2xl font-bold text-navy">
-              <span className="text-gold">JUST</span>WATCHES
+              <span className="text-gold">CHRO</span>NOVA
             </h1>
           </Link>
 
