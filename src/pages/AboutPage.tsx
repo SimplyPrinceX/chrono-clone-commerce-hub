@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -10,14 +9,14 @@ const AboutPage = () => {
         <div className="absolute inset-0 bg-[url('https://images.unsplash.com/photo-1508057198894-247b23fe5ade')] bg-cover bg-center opacity-30"></div>
         <div className="watch-container relative z-10">
           <div className="max-w-2xl mx-auto text-center">
-            <h1 className="text-4xl md:text-5xl font-bold mb-6">About JustWatches</h1>
+            <h1 className="text-4xl md:text-5xl font-bold mb-6">About Chronova</h1>
             <p className="text-xl">
               The premier destination for luxury timepieces since 1998.
             </p>
           </div>
         </div>
       </section>
-      
+
       {/* Our Story */}
       <section className="py-16">
         <div className="watch-container">
@@ -25,10 +24,10 @@ const AboutPage = () => {
             <div className="lg:w-1/2">
               <h2 className="text-3xl font-bold mb-6">Our Story</h2>
               <p className="text-gray-700 mb-4">
-                JustWatches was founded with a singular vision: to provide watch enthusiasts with access to the world's finest timepieces and exceptional service. What began as a small boutique in New York has grown into a global destination for watch collectors and aficionados.
+                Chronova was founded with a singular vision: to provide watch enthusiasts with access to the world's finest timepieces and exceptional service. What began as a small boutique in New York has grown into a global destination for watch collectors and aficionados.
               </p>
               <p className="text-gray-700 mb-4">
-                Our founder, James Robertson, a third-generation watchmaker, established JustWatches based on values of authenticity, expertise, and passion for horology. These principles continue to guide us today as we curate our collection and serve our customers.
+                A third-generation watchmaker, established Chronova based on values of authenticity, expertise, and passion for horology. These principles continue to guide us today as we curate our collection and serve our customers.
               </p>
               <p className="text-gray-700">
                 Over two decades later, we remain committed to offering only the highest quality watches, representing the pinnacle of Swiss and international craftsmanship, along with unparalleled customer service.
@@ -36,9 +35,9 @@ const AboutPage = () => {
             </div>
             <div className="lg:w-1/2">
               <div className="aspect-square rounded-lg overflow-hidden shadow-lg">
-                <img 
-                  src="https://images.unsplash.com/photo-1539874754764-5a96559165b0" 
-                  alt="Watch workshop" 
+                <img
+                  src="https://images.unsplash.com/photo-1539874754764-5a96559165b0"
+                  alt="Watch workshop"
                   className="w-full h-full object-cover"
                 />
               </div>
@@ -46,13 +45,14 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Values */}
       <section className="py-16 bg-gray-50">
         <div className="watch-container">
           <h2 className="text-3xl font-bold mb-12 text-center">Our Values</h2>
-          
+
           <div className="grid grid-cols-1 md:grid-cols-3 gap-8">
+            {/* Authenticity */}
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -64,7 +64,8 @@ const AboutPage = () => {
                 We guarantee the authenticity of every timepiece we sell. Our expert authentication process ensures you receive only genuine luxury watches.
               </p>
             </div>
-            
+
+            {/* Expertise */}
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -76,7 +77,8 @@ const AboutPage = () => {
                 Our team consists of certified watchmakers and horological experts with decades of experience in the luxury watch industry.
               </p>
             </div>
-            
+
+            {/* Excellence */}
             <div className="bg-white p-8 rounded-lg shadow-sm text-center">
               <div className="w-16 h-16 bg-navy/10 rounded-full flex items-center justify-center mx-auto mb-4">
                 <svg xmlns="http://www.w3.org/2000/svg" className="h-8 w-8 text-navy" fill="none" viewBox="0 0 24 24" stroke="currentColor">
@@ -91,40 +93,23 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* Our Team */}
       <section className="py-16">
         <div className="watch-container">
           <h2 className="text-3xl font-bold mb-12 text-center">Meet Our Team</h2>
-          
-          <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-4 gap-8">
+
+          <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {[
-              {
-                name: "James Robertson",
-                title: "Founder & CEO",
-                image: "photo-1560250097-0b93528c311a"
-              },
-              {
-                name: "Emily Parker",
-                title: "Head Watchmaker",
-                image: "photo-1494790108377-be9c29b29330"
-              },
-              {
-                name: "Michael Chen",
-                title: "Director of Acquisitions",
-                image: "photo-1500648767791-00dcc994a43e"
-              },
-              {
-                name: "Sophia Williams",
-                title: "Customer Experience Director",
-                image: "photo-1580489944761-15a19d654956"
-              }
+              { name: "Abdur Rehman", title: "Founder", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
+              { name: "Syed Abrar", title: "Lead Developer", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
+              { name: "Sheik Ejaaz", title: "Operations Manager", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
             ].map((member, index) => (
               <div key={index} className="text-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-4">
-                  <img 
-                    src={`https://images.unsplash.com/${member.image}`} 
-                    alt={member.name} 
+                  <img
+                    src={member.image}
+                    alt={member.name}
                     className="w-full h-full object-cover"
                   />
                 </div>
@@ -135,7 +120,7 @@ const AboutPage = () => {
           </div>
         </div>
       </section>
-      
+
       {/* CTA */}
       <section className="py-16 bg-navy text-white">
         <div className="watch-container text-center">
@@ -143,8 +128,8 @@ const AboutPage = () => {
           <p className="text-xl max-w-2xl mx-auto mb-8">
             Discover our curated collection of luxury timepieces from the world's most prestigious brands.
           </p>
-          <Link 
-            to="/watches" 
+          <Link
+            to="/watches"
             className="inline-block bg-gold hover:bg-amber-600 text-white px-8 py-3 rounded-md font-medium transition-colors"
           >
             Explore Our Collection
