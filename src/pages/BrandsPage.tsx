@@ -30,7 +30,7 @@ const BrandsPage = () => {
             <Link
               key={brand.id}
               to={`/watches?brand=${brand.name}`}
-              className="group bg-white rounded-lg shadow-sm overflow-hidden"
+              className="group bg-white rounded-lg shadow-sm overflow-hidden hover:shadow-md transition-shadow duration-300"
             >
               <div className="aspect-video overflow-hidden">
                 <img 

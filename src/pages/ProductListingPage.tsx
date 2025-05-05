@@ -7,7 +7,7 @@ import { Checkbox } from '@/components/ui/checkbox';
 import { Slider } from '@/components/ui/slider';
 import { useCart } from '@/context/CartContext';
 import { useToast } from '@/components/ui/use-toast';
-import { ShoppingCart } from 'lucide-react';
+import { ShoppingCart, X } from 'lucide-react';
 
 const ProductListingPage = () => {
   const { category } = useParams();
@@ -18,6 +18,7 @@ const ProductListingPage = () => {
   const [selectedBrands, setSelectedBrands] = useState<string[]>(brandFilter ? [brandFilter] : []);
   const [priceRange, setPriceRange] = useState([0, 30000]);
   const [sortOption, setSortOption] = useState('featured');
+  const [showFilters, setShowFilters] = useState(true);
   const { addToCart } = useCart();
   const { toast } = useToast();
 
@@ -72,6 +73,12 @@ const ProductListingPage = () => {
         : [...prev, brand]
     );
   };
+
+  const clearAllFilters = () => {
+    setSelectedBrands([]);
+    setPriceRange([0, 30000]);
+    setSortOption('featured');
+  };
   
   const handlePriceChange = (values: number[]) => {
     setPriceRange(values);
@@ -118,46 +125,84 @@ const ProductListingPage = () => {
         
         <div className="flex flex-col lg:flex-row gap-8">
           {/* Filters Sidebar */}
-          <aside className="lg:w-1/4">
-            <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
-              <h2 className="font-bold text-lg mb-4">Brands</h2>
-              <div className="space-y-2">
-                {brands.map(brand => (
-                  <div key={brand.id} className="flex items-center">
-                    <Checkbox
-                      id={`brand-${brand.id}`}
-                      checked={selectedBrands.includes(brand.name)}
-                      onCheckedChange={() => toggleBrandFilter(brand.name)}
-                    />
-                    <label htmlFor={`brand-${brand.id}`} className="ml-2 text-sm font-medium">
-                      {brand.name} ({brand.count})
-                    </label>
+          {showFilters && (
+            <aside className="lg:w-1/4 relative">
+              <div className="sticky top-4">
+                <div className="bg-white p-6 rounded-lg shadow-sm mb-6">
+                  <div className="flex justify-between items-center mb-4">
+                    <h2 className="font-bold text-lg">Filters</h2>
+                    <Button 
+                      variant="ghost" 
+                      size="sm" 
+                      onClick={clearAllFilters}
+                      className="text-sm text-gray-500 hover:text-gray-800"
+                    >
+                      Clear all
+                    </Button>
+                    <Button 
+                      variant="ghost" 
+                      size="icon" 
+                      onClick={() => setShowFilters(false)}
+                      className="lg:hidden"
+                    >
+                      <X className="h-4 w-4" />
+                    </Button>
                   </div>
-                ))}
+                  
+                  <div className="pt-4 border-t">
+                    <h3 className="font-medium mb-3">Brands</h3>
+                    <div className="space-y-2">
+                      {brands.map(brand => (
+                        <div key={brand.id} className="flex items-center">
+                          <Checkbox
+                            id={`brand-${brand.id}`}
+                            checked={selectedBrands.includes(brand.name)}
+                            onCheckedChange={() => toggleBrandFilter(brand.name)}
+                          />
+                          <label htmlFor={`brand-${brand.id}`} className="ml-2 text-sm font-medium">
+                            {brand.name} ({brand.count})
+                          </label>
+                        </div>
+                      ))}
+                    </div>
+                  </div>
+                </div>
+                
+                <div className="bg-white p-6 rounded-lg shadow-sm">
+                  <h3 className="font-medium mb-4">Price Range</h3>
+                  <Slider 
+                    defaultValue={[0, 30000]} 
+                    max={30000} 
+                    step={100}
+                    value={priceRange}
+                    onValueChange={handlePriceChange}
+                    className="mb-6"
+                  />
+                  <div className="flex justify-between">
+                    <span className="text-sm">${priceRange[0].toLocaleString()}</span>
+                    <span className="text-sm">${priceRange[1].toLocaleString()}</span>
+                  </div>
+                </div>
               </div>
-            </div>
-            
-            <div className="bg-white p-6 rounded-lg shadow-sm">
-              <h2 className="font-bold text-lg mb-4">Price Range</h2>
-              <Slider 
-                defaultValue={[0, 30000]} 
-                max={30000} 
-                step={100}
-                value={priceRange}
-                onValueChange={handlePriceChange}
-                className="mb-6"
-              />
-              <div className="flex justify-between">
-                <span className="text-sm">${priceRange[0].toLocaleString()}</span>
-                <span className="text-sm">${priceRange[1].toLocaleString()}</span>
-              </div>
-            </div>
-          </aside>
+            </aside>
+          )}
           
           {/* Products Grid */}
-          <div className="lg:w-3/4">
+          <div className={showFilters ? "lg:w-3/4" : "w-full"}>
             <div className="flex justify-between items-center mb-6">
-              <p className="text-sm text-gray-600">{filteredProducts.length} products</p>
+              <div className="flex items-center gap-2">
+                {!showFilters && (
+                  <Button 
+                    variant="outline" 
+                    size="sm" 
+                    onClick={() => setShowFilters(true)}
+                    className="mr-2"
+                  >
+                    Show Filters
+                  </Button>
+                )}
+                <p className="text-sm text-gray-600">{filteredProducts.length} products</p>
+              </div>
               
               <div className="flex items-center">
                 <label htmlFor="sort" className="text-sm mr-2">Sort by:</label>
@@ -180,13 +225,7 @@ const ProductListingPage = () => {
               <div className="bg-white p-12 rounded-lg shadow-sm text-center">
                 <h3 className="text-xl font-semibold mb-3">No products found</h3>
                 <p className="text-gray-600 mb-6">Try adjusting your filters to find products.</p>
-                <Button 
-                  onClick={() => {
-                    setSelectedBrands([]);
-                    setPriceRange([0, 30000]);
-                    setSortOption('featured');
-                  }}
-                >
+                <Button onClick={clearAllFilters}>
                   Clear Filters
                 </Button>
               </div>

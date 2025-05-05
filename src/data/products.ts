@@ -43,9 +43,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg",
-      "https://images.pexels.com/photos/9979925/pexels-photo-9979925.jpeg",
-      "https://images.pexels.com/photos/9981851/pexels-photo-9981851.jpeg"
+      "https://images.unsplash.com/photo-1627662168806-efa33a7cda86?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1587836374828-4dbafa94cf0e?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1612454773739-25a58238d887?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: false,
@@ -53,7 +53,7 @@ export const products: Product[] = [
   },
   {
     id: 2,
-    name: "Diver Pro",
+    name: "Seamaster Professional",
     brand: "Omega",
     category: "men",
     price: 6499,
@@ -73,9 +73,9 @@ export const products: Product[] = [
       water_resistance: "300 meters / 1000 feet"
     },
     images: [
-      "https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg",
-      "https://images.pexels.com/photos/277390/pexels-photo-277390.jpeg",
-      "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg"
+      "https://images.unsplash.com/photo-1593998066526-65fcab3021a2?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548171632-c668abbf39d4?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1620625515032-6ed0c1790c75?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -104,9 +104,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.pexels.com/photos/47339/mechanics-movement-feinmechanik-wrist-watch-47339.jpeg",
-      "https://images.pexels.com/photos/280250/pexels-photo-280250.jpeg",
-      "https://images.pexels.com/photos/364822/pexels-photo-364822.jpeg"
+      "https://images.unsplash.com/photo-1619134778706-7015533a6150?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1639037949517-b137202d0955?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1548169874-53e85f753f1e?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: false,
@@ -134,9 +134,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.pexels.com/photos/9978722/pexels-photo-9978722.jpeg",
-      "https://images.pexels.com/photos/9978676/pexels-photo-9978676.jpeg",
-      "https://images.pexels.com/photos/9978727/pexels-photo-9978727.jpeg"
+      "https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1619947486526-b9dd1fb79ad0?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1508685096489-7aacd43bd3b1?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -164,9 +164,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg",
-      "https://images.pexels.com/photos/1034065/pexels-photo-1034065.jpeg",
-      "https://images.pexels.com/photos/859895/pexels-photo-859895.jpeg"
+      "https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1583312708610-fe16a34b0826?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1709744331583-1e52343a1fc4?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: false,
     isNewArrival: false,
@@ -194,9 +194,9 @@ export const products: Product[] = [
       water_resistance: "60 meters / 200 feet"
     },
     images: [
-      "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg",
-      "https://images.pexels.com/photos/2783873/pexels-photo-2783873.jpeg",
-      "https://images.pexels.com/photos/2494607/pexels-photo-2494607.jpeg"
+      "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622434641406-a158123450f9?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1606736649348-3b11672e73aa?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: false,
@@ -224,9 +224,9 @@ export const products: Product[] = [
       water_resistance: "30 meters / 100 feet"
     },
     images: [
-      "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg",
-      "https://images.pexels.com/photos/266666/pexels-photo-266666.jpeg",
-      "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg"
+      "https://images.unsplash.com/photo-1615138348058-fa7283161fcd?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1614703275013-fd9a795ae2b4?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1524805444758-089113d48a6d?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -234,11 +234,11 @@ export const products: Product[] = [
   },
   {
     id: 9,
-    name: "Seamaster Professional",
+    name: "Dive Master",
     brand: "Omega",
     category: "men",
     price: 8500,
-    description: "The legendary Omega Seamaster Professional, trusted by dive professionals and style enthusiasts alike.",
+    description: "The legendary Omega dive watch, trusted by dive professionals and style enthusiasts alike.",
     features: [
       "Co-axial escapement",
       "Wave-patterned dial",
@@ -254,9 +254,9 @@ export const products: Product[] = [
       water_resistance: "300 meters / 1000 feet"
     },
     images: [
-      "https://images.pexels.com/photos/128206/pexels-photo-128206.jpeg",
-      "https://images.pexels.com/photos/266666/pexels-photo-266666.jpeg",
-      "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg"
+      "https://images.unsplash.com/photo-1580287017983-f87a392cf661?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1602005809076-d3b10dad8312?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1522312346375-d1a52e2b99b3?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -284,9 +284,9 @@ export const products: Product[] = [
       water_resistance: "120 meters / 394 feet"
     },
     images: [
-      "https://images.pexels.com/photos/2113994/pexels-photo-2113994.jpeg",
-      "https://images.pexels.com/photos/9979952/pexels-photo-9979952.jpeg",
-      "https://images.pexels.com/photos/277321/pexels-photo-277321.jpeg"
+      "https://images.unsplash.com/photo-1650925735028-b73bc9e9063a?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1621370115429-cf6c8f4e0f54?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1615838574155-8c693cd96808?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -314,9 +314,9 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg",
-      "https://images.pexels.com/photos/392034/pexels-photo-392034.jpeg",
-      "https://images.pexels.com/photos/277321/pexels-photo-277321.jpeg"
+      "https://images.unsplash.com/photo-1596893522033-60a6b80f1c24?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1639662546615-3e62d188d21a?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1626113151297-025de5ffd85e?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
@@ -344,25 +344,147 @@ export const products: Product[] = [
       water_resistance: "100 meters / 330 feet"
     },
     images: [
-      "https://images.pexels.com/photos/691640/pexels-photo-691640.jpeg",
-      "https://images.pexels.com/photos/157646/watch-work-detail-brass-157646.jpeg",
-      "https://images.pexels.com/photos/1262699/pexels-photo-1262699.jpeg"
+      "https://images.unsplash.com/photo-1645366745115-4cb5dd4ac47e?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1705273690533-7fa9a2083157?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1677128412284-b7d12f6a8bc3?q=80&w=1000&auto=format&fit=crop"
     ],
     inStock: true,
     isNewArrival: true,
     isBestSeller: false
+  },
+  {
+    id: 13,
+    name: "Speedmaster Moonwatch",
+    brand: "Omega",
+    category: "men",
+    price: 7200,
+    description: "The legendary watch that went to the moon, featuring precision chronograph functionality and timeless design.",
+    features: [
+      "Manual-winding movement",
+      "Triple-register chronograph",
+      "Tachymeter scale on bezel",
+      "Hesalite crystal",
+      "Small seconds sub-dial"
+    ],
+    specifications: {
+      case: "Stainless steel, 42mm",
+      movement: "Omega Calibre 1861, Manual-winding",
+      dial: "Black with luminous markers",
+      bracelet: "Stainless steel",
+      water_resistance: "50 meters / 167 feet"
+    },
+    images: [
+      "https://images.unsplash.com/photo-1614750443302-4b3741f85c24?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1632498301446-5f3f8d94b7ed?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1612817159949-195b6eb9e31a?q=80&w=1000&auto=format&fit=crop"
+    ],
+    inStock: true,
+    isNewArrival: false,
+    isBestSeller: true
+  },
+  {
+    id: 14,
+    name: "Datejust 41",
+    brand: "Rolex",
+    category: "men",
+    price: 12500,
+    description: "The classic Rolex Datejust with fluted bezel and jubilee bracelet, a timeless symbol of style and achievement.",
+    features: [
+      "Chronometer certified movement",
+      "Cyclops lens over date",
+      "Waterproof Oyster case",
+      "Self-winding perpetual movement",
+      "Superlative chronometer certification"
+    ],
+    specifications: {
+      case: "Stainless steel and white gold, 41mm",
+      movement: "Calibre 3235, Automatic",
+      dial: "Sunburst blue",
+      bracelet: "Jubilee, Stainless steel",
+      water_resistance: "100 meters / 330 feet"
+    },
+    images: [
+      "https://images.unsplash.com/photo-1684142589680-e9b0e9da6daf?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1609609128691-99f27fb83314?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1592857029495-ef57a8f2bf34?q=80&w=1000&auto=format&fit=crop"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: true
+  },
+  {
+    id: 15,
+    name: "Heritage Chronograph",
+    brand: "Tudor",
+    category: "men",
+    price: 5200,
+    originalPrice: 5800,
+    description: "Vintage-inspired chronograph with modern technical specifications and exceptional quality.",
+    features: [
+      "Column-wheel chronograph mechanism",
+      "Screw-down pushers",
+      "Bi-directional rotating bezel",
+      "70-hour power reserve",
+      "Date function"
+    ],
+    specifications: {
+      case: "Stainless steel, 41mm",
+      movement: "Manufacture Calibre MT5813, Automatic",
+      dial: "Panda with black sub-dials on white background",
+      bracelet: "Stainless steel with rivet design",
+      water_resistance: "200 meters / 660 feet"
+    },
+    images: [
+      "https://images.unsplash.com/photo-1655664910813-6fdeefd0b9d7?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1648183185045-7a52f84c2ef4?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1638516532584-4708a49da3af?q=80&w=1000&auto=format&fit=crop"
+    ],
+    inStock: true,
+    isNewArrival: true,
+    isBestSeller: false
+  },
+  {
+    id: 16,
+    name: "Santos de Cartier",
+    brand: "Cartier",
+    category: "men",
+    price: 8400,
+    description: "Iconic square watch design with modern engineering and the unmistakable Cartier aesthetic.",
+    features: [
+      "QuickSwitch strap change system",
+      "SmartLink size adjustment",
+      "Seven-sided crown with sapphire",
+      "Screwed-down bezel",
+      "Sword-shaped hands with luminescence"
+    ],
+    specifications: {
+      case: "Stainless steel, 39.8mm",
+      movement: "Calibre 1847 MC, Automatic",
+      dial: "Silvered opaline",
+      bracelet: "Stainless steel with QuickSwitch system",
+      water_resistance: "100 meters / 330 feet"
+    },
+    images: [
+      "https://images.unsplash.com/photo-1625592526284-06c17c81a237?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1622435012548-13a9a97c2470?q=80&w=1000&auto=format&fit=crop",
+      "https://images.unsplash.com/photo-1669118041111-f240c48dc164?q=80&w=1000&auto=format&fit=crop"
+    ],
+    inStock: true,
+    isNewArrival: false,
+    isBestSeller: true
   }
 ];
 
 export const brands = [
-  { id: 1, name: "Rolex", count: 12, image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg" },
-  { id: 2, name: "Omega", count: 15, image: "https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg" },
-  { id: 3, name: "TAG Heuer", count: 10, image: "https://images.pexels.com/photos/47339/mechanics-movement-feinmechanik-wrist-watch-47339.jpeg" },
-  { id: 4, name: "Cartier", count: 8, image: "https://images.pexels.com/photos/9978722/pexels-photo-9978722.jpeg" },
-  { id: 5, name: "Patek Philippe", count: 6, image: "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg" },
-  { id: 7, name: "IWC", count: 7, image: "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg" },
-  { id: 8, name: "Hublot", count: 5, image: "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg" },
-  { id: 9, name: "Audemars Piguet", count: 4, image: "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg" }
+  { id: 1, name: "Rolex", count: 12, image: "https://images.unsplash.com/photo-1627662168806-efa33a7cda86?q=80&w=1000&auto=format&fit=crop" },
+  { id: 2, name: "Omega", count: 15, image: "https://images.unsplash.com/photo-1593998066526-65fcab3021a2?q=80&w=1000&auto=format&fit=crop" },
+  { id: 3, name: "TAG Heuer", count: 10, image: "https://images.unsplash.com/photo-1619134778706-7015533a6150?q=80&w=1000&auto=format&fit=crop" },
+  { id: 4, name: "Cartier", count: 8, image: "https://images.unsplash.com/photo-1619946794135-5bc917a27793?q=80&w=1000&auto=format&fit=crop" },
+  { id: 5, name: "Patek Philippe", count: 6, image: "https://images.unsplash.com/photo-1539874754764-5a96559165b0?q=80&w=1000&auto=format&fit=crop" },
+  { id: 7, name: "IWC", count: 7, image: "https://images.unsplash.com/photo-1614164185128-e4ec99c436d7?q=80&w=1000&auto=format&fit=crop" },
+  { id: 8, name: "Hublot", count: 5, image: "https://images.unsplash.com/photo-1615138348058-fa7283161fcd?q=80&w=1000&auto=format&fit=crop" },
+  { id: 9, name: "Audemars Piguet", count: 4, image: "https://images.unsplash.com/photo-1596893522033-60a6b80f1c24?q=80&w=1000&auto=format&fit=crop" },
+  { id: 10, name: "Tudor", count: 5, image: "https://images.unsplash.com/photo-1655664910813-6fdeefd0b9d7?q=80&w=1000&auto=format&fit=crop" }
 ];
 
 export const categories = [
