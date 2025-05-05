@@ -101,9 +101,9 @@ const AboutPage = () => {
 
           <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 gap-8 justify-items-center">
             {[
-              { name: "Abdur Rehman", title: "Founder", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
-              { name: "Syed Abrar", title: "Lead Developer", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
-              { name: "Sheik Ejaaz", title: "Operations Manager", image: "https://i.pinimg.com/originals/0f/78/5d/0f785d55cea2a407ac8c1d0c6ef19292.jpg" },
+              { name: "Abdur Rehman", title: "Founder", image: "https://i.pinimg.com/1200x/62/1f/8b/621f8b2369433abe3c15c31bb0a4afef.jpg" },
+              { name: "Syed Abrar", title: "Lead Developer", image: "https://i.pinimg.com/736x/80/99/fe/8099fe7f031534837b780d39363803c6.jpg" },
+              { name: "Sheik Ejaaz", title: "Operations Manager", image: "https://i.pinimg.com/736x/90/97/76/9097763aaa515aa5b98d4570f7147fdc.jpg" },
             ].map((member, index) => (
               <div key={index} className="text-center">
                 <div className="w-48 h-48 rounded-full overflow-hidden mx-auto mb-4">
