@@ -1,4 +1,3 @@
-
 import React from 'react';
 import { Link } from 'react-router-dom';
 
@@ -66,9 +65,9 @@ const Footer = () => {
           <div>
             <h3 className="text-lg font-semibold mb-4">Contact</h3>
             <ul className="space-y-2 text-gray-300">
-              <li>Email: info@chronova.com</li>
-              <li>Phone: +1 (555) 123-4567</li>
-              <li>Address: 123 Watch St, Timeville, NY 10001</li>
+              <li>Email: info@chronova.in</li>
+              <li>Phone: +91 88674 72331</li>
+              <li>Address: 45 MG Road, Indiranagar, Bangalore, Karnataka 560038</li>
             </ul>
             <div className="mt-4">
               <form className="flex">
