@@ -1,4 +1,3 @@
-
 export interface Product {
   id: number;
   name: string;
@@ -25,7 +24,7 @@ export const products: Product[] = [
   {
     id: 1,
     name: "Classic Automatic",
-    brand: "Chronova",
+    brand: "Rolex",
     category: "men",
     price: 8999,
     description: "A timeless classic that embodies luxury and precision. The perfect statement piece for any occasion.",
@@ -55,7 +54,7 @@ export const products: Product[] = [
   {
     id: 2,
     name: "Diver Pro",
-    brand: "Chronova",
+    brand: "Omega",
     category: "men",
     price: 6499,
     description: "Professional diving watch with exceptional underwater capabilities and timeless design.",
@@ -68,7 +67,7 @@ export const products: Product[] = [
     ],
     specifications: {
       case: "Stainless steel, 42mm",
-      movement: "Chronova Co-Axial Master Chronometer Calibre 8800",
+      movement: "Omega Co-Axial Master Chronometer Calibre 8800",
       dial: "Blue",
       bracelet: "Stainless steel",
       water_resistance: "300 meters / 1000 feet"
@@ -85,7 +84,7 @@ export const products: Product[] = [
   {
     id: 3,
     name: "Grand Chronograph",
-    brand: "Chronova",
+    brand: "TAG Heuer",
     category: "men",
     price: 4299,
     originalPrice: 4899,
@@ -116,7 +115,7 @@ export const products: Product[] = [
   {
     id: 4,
     name: "Elegant Diamond",
-    brand: "Chronova",
+    brand: "Cartier",
     category: "women",
     price: 12999,
     description: "Exquisite timepiece adorned with diamonds, embodying feminine elegance and sophisticated craftsmanship.",
@@ -146,7 +145,7 @@ export const products: Product[] = [
   {
     id: 5,
     name: "Slim Automatic",
-    brand: "Chronova",
+    brand: "Patek Philippe",
     category: "men",
     price: 24999,
     description: "Ultra-thin automatic watch representing the pinnacle of watchmaking art and elegance.",
@@ -176,7 +175,7 @@ export const products: Product[] = [
   {
     id: 7,
     name: "Pilot's Chronograph",
-    brand: "Chronova",
+    brand: "IWC",
     category: "men",
     price: 7999,
     description: "Aviator-inspired chronograph with heritage design elements and precision mechanics.",
@@ -206,7 +205,7 @@ export const products: Product[] = [
   {
     id: 8,
     name: "Ceramic Tourbillon",
-    brand: "Chronova",
+    brand: "Hublot",
     category: "men",
     price: 18999,
     description: "Bold statement piece featuring a tourbillon movement and innovative ceramic construction.",
@@ -236,10 +235,10 @@ export const products: Product[] = [
   {
     id: 9,
     name: "Seamaster Professional",
-    brand: "Chronova",
+    brand: "Omega",
     category: "men",
     price: 8500,
-    description: "The legendary Chronova Seamaster Professional, trusted by dive professionals and style enthusiasts alike.",
+    description: "The legendary Omega Seamaster Professional, trusted by dive professionals and style enthusiasts alike.",
     features: [
       "Co-axial escapement",
       "Wave-patterned dial",
@@ -249,7 +248,7 @@ export const products: Product[] = [
     ],
     specifications: {
       case: "Stainless steel, 42mm",
-      movement: "Chronova Master Chronometer Calibre 8800",
+      movement: "Omega Master Chronometer Calibre 8800",
       dial: "Deep ocean blue ceramic",
       bracelet: "Stainless steel with fine adjustment",
       water_resistance: "300 meters / 1000 feet"
@@ -266,10 +265,10 @@ export const products: Product[] = [
   {
     id: 10,
     name: "Nautilus Limited",
-    brand: "Chronova",
+    brand: "Patek Philippe",
     category: "men",
     price: 89999,
-    description: "Limited-edition Chronova Nautilus with exclusive embossed dial and features.",
+    description: "Limited-edition Patek Philippe Nautilus with exclusive embossed dial and features.",
     features: [
       "Limited production of 500 pieces worldwide",
       "Original design",
@@ -296,7 +295,7 @@ export const products: Product[] = [
   {
     id: 11,
     name: "Royal Oak Offshore",
-    brand: "Chronova",
+    brand: "Audemars Piguet",
     category: "men",
     price: 45000,
     description: "Bold, muscular evolution of the iconic Royal Oak, embodying sporting luxury and precision engineering.",
@@ -326,7 +325,7 @@ export const products: Product[] = [
   {
     id: 12,
     name: "Big Bang Unico",
-    brand: "Chronova",
+    brand: "Hublot",
     category: "men",
     price: 35000,
     description: "Revolutionary fusion of materials with skeleton dial and in-house movement, making a bold statement.",
@@ -339,7 +338,7 @@ export const products: Product[] = [
     ],
     specifications: {
       case: "King Gold and ceramic, 44mm",
-      movement: "Chronova UNICO HUB1280, Self-winding chronograph",
+      movement: "Hublot UNICO HUB1280, Self-winding chronograph",
       dial: "Skeletonized",
       bracelet: "Black structured rubber with deployant buckle",
       water_resistance: "100 meters / 330 feet"
@@ -356,14 +355,14 @@ export const products: Product[] = [
 ];
 
 export const brands = [
-  { id: 1, name: "Classic Collection", count: 12, image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg" },
-  { id: 2, name: "Sport Collection", count: 15, image: "https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg" },
-  { id: 3, name: "Chronograph Collection", count: 10, image: "https://images.pexels.com/photos/47339/mechanics-movement-feinmechanik-wrist-watch-47339.jpeg" },
-  { id: 4, name: "Women's Collection", count: 8, image: "https://images.pexels.com/photos/9978722/pexels-photo-9978722.jpeg" },
-  { id: 5, name: "Luxury Collection", count: 6, image: "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg" },
-  { id: 7, name: "Pilot Collection", count: 7, image: "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg" },
-  { id: 8, name: "Ceramic Collection", count: 5, image: "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg" },
-  { id: 9, name: "Heritage Collection", count: 4, image: "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg" }
+  { id: 1, name: "Rolex", count: 12, image: "https://images.pexels.com/photos/190819/pexels-photo-190819.jpeg" },
+  { id: 2, name: "Omega", count: 15, image: "https://images.pexels.com/photos/1639729/pexels-photo-1639729.jpeg" },
+  { id: 3, name: "TAG Heuer", count: 10, image: "https://images.pexels.com/photos/47339/mechanics-movement-feinmechanik-wrist-watch-47339.jpeg" },
+  { id: 4, name: "Cartier", count: 8, image: "https://images.pexels.com/photos/9978722/pexels-photo-9978722.jpeg" },
+  { id: 5, name: "Patek Philippe", count: 6, image: "https://images.pexels.com/photos/125779/pexels-photo-125779.jpeg" },
+  { id: 7, name: "IWC", count: 7, image: "https://images.pexels.com/photos/236915/pexels-photo-236915.jpeg" },
+  { id: 8, name: "Hublot", count: 5, image: "https://images.pexels.com/photos/9981590/pexels-photo-9981590.jpeg" },
+  { id: 9, name: "Audemars Piguet", count: 4, image: "https://images.pexels.com/photos/705868/pexels-photo-705868.jpeg" }
 ];
 
 export const categories = [
