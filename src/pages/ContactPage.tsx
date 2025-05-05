@@ -7,16 +7,16 @@ import { useToast } from '@/components/ui/use-toast';
 
 const ContactPage = () => {
   const { toast } = useToast();
-  
+
   const [formData, setFormData] = useState({
     name: '',
     email: '',
     subject: '',
     message: ''
   });
-  
-  const [errors, setErrors] = useState<{[key: string]: string}>({});
-  
+
+  const [errors, setErrors] = useState<{ [key: string]: string }>({});
+
   const handleChange = (
     e: React.ChangeEvent<HTMLInputElement | HTMLTextAreaElement>
   ) => {
@@ -25,35 +25,35 @@ const ContactPage = () => {
       ...formData,
       [name]: value
     });
-    
+
     if (errors[name]) {
       const newErrors = { ...errors };
       delete newErrors[name];
       setErrors(newErrors);
     }
   };
-  
+
   const validateForm = () => {
-    const newErrors: {[key: string]: string} = {};
-    
+    const newErrors: { [key: string]: string } = {};
+
     if (!formData.name.trim()) newErrors.name = 'Name is required';
     if (!formData.email.trim()) newErrors.email = 'Email is required';
     if (!formData.subject.trim()) newErrors.subject = 'Subject is required';
     if (!formData.message.trim()) newErrors.message = 'Message is required';
-    
+
     setErrors(newErrors);
     return Object.keys(newErrors).length === 0;
   };
-  
+
   const handleSubmit = (e: React.FormEvent) => {
     e.preventDefault();
-    
+
     if (validateForm()) {
       toast({
-        title: "Message Sent",
+        title: 'Message Sent',
         description: "Thank you for your message. We'll get back to you as soon as possible.",
       });
-      
+
       setFormData({
         name: '',
         email: '',
@@ -62,7 +62,7 @@ const ContactPage = () => {
       });
     }
   };
-  
+
   return (
     <div className="bg-gray-50 py-8">
       <div className="watch-container">
@@ -76,25 +76,25 @@ const ContactPage = () => {
             <li className="font-medium">Contact Us</li>
           </ol>
         </nav>
-        
+
         <h1 className="text-3xl font-bold mb-8">Contact Us</h1>
-        
+
         <div className="grid grid-cols-1 lg:grid-cols-3 gap-12">
           {/* Contact Information */}
           <div className="lg:col-span-1">
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-xl font-bold mb-6">Get in Touch</h2>
-              
+
               <div className="space-y-6">
                 <div>
                   <h3 className="font-semibold mb-2">Our Address</h3>
                   <p className="text-gray-700">
-                    456 MG Road<br />
-                    Bengaluru, Karnataka 560001<br />
+                    45 MG Road<br />
+                    Indiranagar, Bengaluru, Karnataka 560038<br />
                     India
                   </p>
                 </div>
-                
+
                 <div>
                   <h3 className="font-semibold mb-2">Email Us</h3>
                   <p className="text-gray-700">
@@ -103,7 +103,7 @@ const ContactPage = () => {
                     </a>
                   </p>
                 </div>
-                
+
                 <div>
                   <h3 className="font-semibold mb-2">Call Us</h3>
                   <p className="text-gray-700">
@@ -112,7 +112,7 @@ const ContactPage = () => {
                     </a>
                   </p>
                 </div>
-                
+
                 <div>
                   <h3 className="font-semibold mb-2">Opening Hours</h3>
                   <p className="text-gray-700">
@@ -124,12 +124,12 @@ const ContactPage = () => {
               </div>
             </div>
           </div>
-          
+
           {/* Contact Form */}
           <div className="lg:col-span-2">
             <div className="bg-white rounded-lg shadow-sm p-6">
               <h2 className="text-xl font-bold mb-6">Send Us a Message</h2>
-              
+
               <form onSubmit={handleSubmit}>
                 <div className="grid grid-cols-1 md:grid-cols-2 gap-6 mb-6">
                   <div>
@@ -145,7 +145,7 @@ const ContactPage = () => {
                     />
                     {errors.name && <p className="text-red-500 text-xs mt-1">{errors.name}</p>}
                   </div>
-                  
+
                   <div>
                     <label htmlFor="email" className="block text-sm font-medium mb-1">
                       Your Email
@@ -161,7 +161,7 @@ const ContactPage = () => {
                     {errors.email && <p className="text-red-500 text-xs mt-1">{errors.email}</p>}
                   </div>
                 </div>
-                
+
                 <div className="mb-6">
                   <label htmlFor="subject" className="block text-sm font-medium mb-1">
                     Subject
@@ -175,7 +175,7 @@ const ContactPage = () => {
                   />
                   {errors.subject && <p className="text-red-500 text-xs mt-1">{errors.subject}</p>}
                 </div>
-                
+
                 <div className="mb-6">
                   <label htmlFor="message" className="block text-sm font-medium mb-1">
                     Message
@@ -190,7 +190,7 @@ const ContactPage = () => {
                   />
                   {errors.message && <p className="text-red-500 text-xs mt-1">{errors.message}</p>}
                 </div>
-                
+
                 <Button type="submit" className="bg-gold hover:bg-amber-600 text-white">
                   Send Message
                 </Button>
@@ -198,14 +198,21 @@ const ContactPage = () => {
             </div>
           </div>
         </div>
-        
+
         {/* Map */}
         <div className="mt-12">
           <h2 className="text-xl font-bold mb-6">Our Location</h2>
-          <div className="aspect-[16/9] w-full bg-gray-300 rounded-lg overflow-hidden">
-            <div className="h-full w-full flex items-center justify-center bg-gray-200">
-              <p className="text-gray-600 font-medium">Interactive Map Would Be Here</p>
-            </div>
+          <div className="aspect-[16/9] w-full rounded-lg overflow-hidden">
+            <iframe
+              title="Chronova Location"
+              src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3890.042283191144!2d77.6407062!3d12.9718932!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x3bae167fbdfeadbb%3A0x2bb3b8a4a4f3a2aa!2s45%20MG%20Road%2C%20Indiranagar%2C%20Bangalore%2C%20Karnataka%20560038!5e0!3m2!1sen!2sin!4v1714933529933!5m2!1sen!2sin"
+              width="100%"
+              height="100%"
+              style={{ border: 0 }}
+              allowFullScreen
+              loading="lazy"
+              referrerPolicy="no-referrer-when-downgrade"
+            ></iframe>
           </div>
         </div>
       </div>
