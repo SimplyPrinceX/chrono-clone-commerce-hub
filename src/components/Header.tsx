@@ -50,7 +50,7 @@ const Header = () => {
             <Button variant="ghost" className="rounded-full p-2">
               <Search className="h-5 w-5" />
             </Button>
-            <Link to="/account">
+            <Link to="/register">
               <Button variant="ghost" className="rounded-full p-2">
                 <User className="h-5 w-5" />
               </Button>
