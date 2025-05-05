@@ -18,11 +18,11 @@ const BrandsPage = () => {
           </ol>
         </nav>
         
-        <h1 className="text-3xl font-bold mb-8">Our Watch Brands</h1>
+        <h1 className="text-3xl font-bold mb-8">Our Watch Collections</h1>
         
         <p className="text-lg text-gray-700 mb-12 max-w-3xl">
-          Discover an exceptional collection of timepieces from the world's most prestigious watch manufacturers. 
-          Each brand represents a unique heritage of craftsmanship and design excellence.
+          Discover an exceptional collection of timepieces from Chronova. 
+          Each collection represents a unique heritage of craftsmanship and design excellence.
         </p>
         
         <div className="grid grid-cols-1 sm:grid-cols-2 lg:grid-cols-3 xl:grid-cols-4 gap-6">
@@ -34,7 +34,7 @@ const BrandsPage = () => {
             >
               <div className="aspect-video overflow-hidden">
                 <img 
-                  src={`https://images.unsplash.com/${brand.image}`}
+                  src={brand.image}
                   alt={brand.name}
                   className="w-full h-full object-cover group-hover:scale-105 transition-transform duration-300"
                 />
